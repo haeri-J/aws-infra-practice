@@ -108,6 +108,17 @@ If I'm still stuck, ask with the exact error message.
 
 - Goal: Remove the SSH rule (port 22) from the security group and still access the server.
 
-- Done when:
+- Done when: I can connect with Session Manager while port 22 is closed.
+- Hints: AmazonSSMManagedInstanceCore, instance profile, Systems Manager > Session Manager
+- Hidden challenge: Without SSH, scp doesn't work either. How do I upload the JAR file? (Hint: S3)
+
+### Wrap-up (30 minutes)
+- Write the English log for Session 2.
+- Terminate all resources and check Billing.
+
+### Review questions (answer without notes)
+1. What makes a subnet "public"?
+2. Why does the app survive a reboot with systemd but not with nohup?
+3. Why is Session Manager safer than SSH?
 
 
