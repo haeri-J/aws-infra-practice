@@ -1,0 +1,7 @@
+*.pem
+*.jar
+build/
+.gradle/
+.idea/
+*.log
+!**/gradle/wrapper/gradle-wrapper.jar
