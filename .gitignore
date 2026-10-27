@@ -5,3 +5,4 @@ build/
 .idea/
 *.log
 !**/gradle/wrapper/gradle-wrapper.jar
+ec2-user@*
